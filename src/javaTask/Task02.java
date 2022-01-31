@@ -9,7 +9,7 @@ public class Task02 {
 			if (num%2 == 0) {
 				sum = sum + num;
 			}
-			System.out.println("偶数の和は" + sum);
 		}
+		System.out.println("偶数の和は" + sum);
 	}
 }
