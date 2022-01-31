@@ -13,7 +13,7 @@ public class Task01 {
 		while (num1 <= 100) {
 			sum1 = sum1 + num1;
 			num1 = num1 + 1;
-			System.out.println("合計: " + sum1);
 		}
+		System.out.println("合計: " + sum1);
 	}
 }
