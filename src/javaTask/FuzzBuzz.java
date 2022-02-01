@@ -9,7 +9,9 @@ public class FuzzBuzz {
 			if (num % (fizz * buzz) == 0) {
 				System.out.println("fizzbuzz");
 			} else if (num % fizz == 0) {
-				System.out
+				System.out.println("fizz");
+			} else {
+				System.out.println("buzz");
 			}
 		}
 	}
