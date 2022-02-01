@@ -13,7 +13,7 @@ public class FuzzBuzz {
 			} else if (num % buzz ==0 ) {
 				System.out.println("buzz");
 			} else {
-				System.out.println("nothing");
+				System.out.println(num);
 			}
 		}
 	}
