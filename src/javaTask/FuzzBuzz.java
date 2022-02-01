@@ -8,7 +8,9 @@ public class FuzzBuzz {
 		for (num = 1; num <= 100; num++) {
 			if (num % (fizz * buzz) == 0) {
 				System.out.println("fizzbuzz");
-			} else if ()
+			} else if (num % fizz == 0) {
+				System.out
+			}
 		}
 	}
 }
