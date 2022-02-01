@@ -10,8 +10,10 @@ public class FuzzBuzz {
 				System.out.println("fizzbuzz");
 			} else if (num % fizz == 0) {
 				System.out.println("fizz");
-			} else {
+			} else if (num % buzz ==0 ) {
 				System.out.println("buzz");
+			} else {
+				System.out.println("nothing");
 			}
 		}
 	}
