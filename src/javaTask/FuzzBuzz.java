@@ -7,15 +7,15 @@ public class FuzzBuzz {
 		int fizz = 3;
 		int buzz = 5;
 		String strfizz = "Fizz";
-		String strbuzz = "buzz";
+		String strbuzz = "Buzz";
 		
 		for (i = 1; i <= loopcount; i++) {
 			if (i % (fizz * buzz) == 0) {
 				System.out.println(strfizz + strbuzz);
 			} else if (i % fizz == 0) {
-				System.out.println("strfizz");
+				System.out.println(strfizz);
 			} else if (i % buzz ==0 ) {
-				System.out.println("strbuzz");
+				System.out.println(strbuzz);
 			} else {
 				System.out.println(i);
 			}
