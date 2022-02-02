@@ -2,18 +2,22 @@ package javaTask;
 
 public class FuzzBuzz {
 	public static void main(String[] args) {
-		int num = 0;
+		int i = 0;
+		int loopcount = 100;
 		int fizz = 3;
 		int buzz = 5;
-		for (num = 1; num <= 100; num++) {
-			if (num % (fizz * buzz) == 0) {
-				System.out.println("fizzbuzz");
-			} else if (num % fizz == 0) {
-				System.out.println("fizz");
-			} else if (num % buzz ==0 ) {
-				System.out.println("buzz");
+		String strfizz = "Fizz";
+		String strbuzz = "buzz";
+		
+		for (i = 1; i <= loopcount; i++) {
+			if (i % (fizz * buzz) == 0) {
+				System.out.println(strfizz + strbuzz);
+			} else if (i % fizz == 0) {
+				System.out.println("strfizz");
+			} else if (i % buzz ==0 ) {
+				System.out.println("strbuzz");
 			} else {
-				System.out.println(num);
+				System.out.println(i);
 			}
 		}
 	}
