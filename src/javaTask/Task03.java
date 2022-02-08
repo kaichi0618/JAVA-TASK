@@ -12,8 +12,9 @@ public class Task03 {
 		String str = "*";
 		String blank = " ";
 		while (num > 0) {
-			System.out.println(num * str);
+			System.out.println(blank + num * str);
 			num = num - 2;
+			
 		}
 
 	}
