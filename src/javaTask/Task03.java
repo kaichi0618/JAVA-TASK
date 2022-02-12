@@ -8,13 +8,15 @@ public class Task03 {
 		System.out.println("      * * *");
 		System.out.println("        *");
 
-		int num = 9;
-		String str = "*";
-		String blank = " ";
-		while (num > 0) {
-			System.out.println(blank + num * str);
-			num = num - 2;
-			
+		int x, y;
+		int row = 10;
+		for (y = 0; y < 10; y++) {
+			for (x = 0; x < y; x++) {
+				System.out.println(" ");
+			}
+			for (x = row - y; x > 0; x--) {
+				System.out.println("*"); 
+			}
 		}
 
 	}
