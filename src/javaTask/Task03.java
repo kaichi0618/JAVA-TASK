@@ -8,8 +8,8 @@ public class Task03 {
 		System.out.println("      * * *");
 		System.out.println("        *");
 
-		for (int i = 5; i > 0; i = i -2) {
-			for (int blank = 0; blank < 3; blank++) {
+		for (int i = 5; i > 0; i = i - 2) {
+			for (int blank = 5; blank > i; blank = blank - 2) {
 				System.out.print(" ");
 			}
 			for (int j = 0; j < i; j++) {
