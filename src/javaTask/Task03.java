@@ -8,15 +8,14 @@ public class Task03 {
 		System.out.println("      * * *");
 		System.out.println("        *");
 
-		int x, y;
-		int row = 10;
-		for (y = 0; y < 10; y++) {
-			for (x = 0; x < y; x++) {
-				System.out.println(" ");
+		for (int i = 5; i > 0; i = i -2) {
+			for (int blank = 0; blank < 3; blank++) {
+				System.out.print(" ");
 			}
-			for (x = row - y; x > 0; x--) {
-				System.out.println("*"); 
+			for (int j = 0; j < i; j++) {
+				System.out.print("*");
 			}
+			System.out.print("\n");
 		}
 
 	}
